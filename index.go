@@ -4,8 +4,7 @@ import "fmt"
 func main() {
     //Variables
     var num1 int
-    var num2 float32
-    var param float32
+    var num2, param float32
     num1=232
     num2=23.2
     /*
