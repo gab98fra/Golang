@@ -8,8 +8,7 @@ func main(){
 	/*
 		Area of a square: side * side
 	*/
-	var side float32
-	var area float32
+	var side, area float32
 	fmt.Println("Give me the side of the square")
 	fmt.Scan(&side)
 	area=get_area(side)
