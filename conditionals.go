@@ -3,13 +3,16 @@ import "fmt"
 
 func main(){
 	var option int
-	fmt.Println("selected option")
+	msg :="selected option: "
+	fmt.Println("please, select an option")
 	fmt.Scan(&option)
 	if option==1{
-		fmt.Println("selected option: 1 ")
+		fmt.Println(msg, "1")
 	}else{
 		if option < 1 {
-			fmt.Println("selected option: less than 1")
+			fmt.Println(msg, "less than 1")
+		}else{
+			fmt.Println("Another option")
 		}
 	}
 }
