@@ -3,6 +3,7 @@ import "fmt"
 
 func main(){
 	var option int
+	//Another way to declare variables
 	msg :="selected option: "
 	fmt.Println("please, select an option")
 	fmt.Scan(&option)
